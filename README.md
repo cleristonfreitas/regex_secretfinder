@@ -53,9 +53,8 @@ _regex = {
     "Slack_Token": r"xox[baprs]-([0-9a-zA-Z]{10,48})?",
     "Slack_Webhook": r"https://hooks.slack.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24}",
     "Twitter_Access_Token": r"[t|T][w|W][i|I][t|T][t|T][e|E][r|R].*[1-9][0-9]+-[0-9a-zA-Z]{40}",
-    "Twitter_OAuth": r"[t|T][w|W][i|I][t|T][t|T][e|E][r|R].*['|\"][0-9a-zA-Z]{35,44}['|\"]"
+    "Twitter_OAuth": r"[t|T][w|W][i|I][t|T][t|T][e|E][r|R].*['|\"][0-9a-zA-Z]{35,44}['|\"]",
     'Cloudinary_Basic_Auth' : r'cloudinary:\/\/[0-9]{15}:[0-9A-Za-z]+@[a-z]+',
-    'LinkedIn_Secret_Key' : r'(?i)linkedin(.{0,20})?['\"][0-9a-z]{16}['\"]',
     'MD5_Hash' : r'[a-f0-9]{32}'
 
 }
