@@ -31,7 +31,6 @@ _regex = {
     'ssh_dc_private_key' : r'-----BEGIN EC PRIVATE KEY-----',
     'pgp_private_block' : r'-----BEGIN PGP PRIVATE KEY BLOCK-----',
     'json_web_token' : r'ey[A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*$',
-    
     'artifactory_api_token' : r'(?:\s|=|:|"|^)AKC[a-zA-Z0-9]{10,}',
     'artifactory_password' : r'(?:\s|=|:|"|^)AP[\dABCDEF][a-zA-Z0-9]{8,}',
     'AWS_Client_ID' : r'(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}',
